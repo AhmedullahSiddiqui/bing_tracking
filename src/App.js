@@ -14,8 +14,11 @@ export default function App() {
       currency: "USD",
       shipping: 0,
       coupon: NaN,
-      items: [{ id: 1 }, { id: 5 }, { id: 3 }],
-      currency: "USD"
+      items: [
+        { id: 1, name: "abc" },
+        { id: 5, name: "abc" },
+        { id: 3, name: "abc" }
+      ]
     });
   }
 
